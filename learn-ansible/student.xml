@@ -1,0 +1,17 @@
+<student>
+    <firstname>Shariff</firstname>
+    <lastname>S</lastname>
+    <dob>01-01-01</dob>
+    <addresses>
+        <address type="temporery">
+            <doorno>1234</doorno>
+            <streetname>Jayanagar</streetname>
+            <city>bengaluru</city>
+        </address>
+        <address type="temporery">
+            <doorno>1234</doorno>
+            <streetname>Jayanagar</streetname>
+            <city>bengaluru</city>
+        </address>
+
+</student>

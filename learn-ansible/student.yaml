@@ -1,0 +1,35 @@
+- first_name: "shariff"
+  lastname: "s"
+  dob: "01-01-01"
+  # - is for list
+  addresses:
+  - type: permanent
+    doorno: 1-4,
+    streetname: jayanagar
+    city: bengaluru
+  - type: temporary
+    doorno: 1-4,
+    streetname: jayanagar
+    city: bengaluru
+  skills: 
+  OS: Linux
+  ide: vscode
+  cm: ansible 
+   
+- first_name: "shariff"
+  lastname: "s"
+  dob: "01-01-01"
+  # - is for list
+  addresses:
+  - type: permanent
+    doorno: 1-4,
+    streetname: jayanagar
+    city: bengaluru
+  - type: temporary
+    doorno: 1-4,
+    streetname: jayanagar
+    city: bengaluru
+  skills: 
+  OS: Linux
+  ide: vscode
+  cm: ansible  
