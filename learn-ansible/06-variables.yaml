@@ -7,11 +7,11 @@
   tasks:
     - name: print the vars
       debug:
-        msg: "Hi, I {{ property }} from my father"
+        msg: "Hi, I got {{ property }} from my father"
 
     - name: print the vars again
       vars: 
         property: "10 acers"
       debug:
-        msg: "Hi, I {{ property }} from my father"
+        msg: "Hi, I got {{ property }} from my father"
 
