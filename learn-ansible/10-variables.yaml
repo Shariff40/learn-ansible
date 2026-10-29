@@ -3,5 +3,5 @@
   connection: local
   tasks:
    - name: print greeting
-     debub:
+     debug:
        msg: "Hello {{ person_name }}"
