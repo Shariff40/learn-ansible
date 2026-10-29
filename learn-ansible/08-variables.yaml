@@ -10,7 +10,7 @@
     prompt: please enter your password
     private: true
 
-  task:
+  tasks:
     - name: print the confedential information
       debug: 
         msg: "username is {{ username }}, password is {{ password }}"
