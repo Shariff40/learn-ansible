@@ -5,12 +5,12 @@
     course: "AIOps with devsecops on aws" #string
     duration_in_hours: 150 # number
     is_live_sessions: true #boolean
-    topics:
+    topics: #list
     - linux
     - shell
     - ansible
     - terraform
-    more_details:
+    more_details: #dictionery/map
        trainer: sivakumar
        months: 4
     exact_duration_in_months: 4.5
@@ -18,5 +18,5 @@
   - name: print info and type
     debug:
       msg: |
-        name: "{{ course }} : {{ course | type_debug }}"
+        name: "{{ course }} : {{ course | type_debug }} "
           
