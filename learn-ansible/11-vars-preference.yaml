@@ -8,9 +8,9 @@
     prompt: please enter your course
     private: false
   vars_files:
-   - course.yaml
+  - course.yaml
   tasks: 
-  # - name: print course information
+  - name: print course information
   #   vars:
   #     course: "ansible from task"
     debug: 
