@@ -2,6 +2,6 @@
   hosts: local
   connection: local
   tasks:
-   -name: print greeting
-     degub:
+   - name: print greeting
+     debub:
        msg: "Hello {{ person_name }}"
