@@ -3,5 +3,5 @@
   connection: local
   tasks:
    -name: print greeting
-    degub:
-      msg: "Hello {{ person_name }}"
+     degub:
+       msg: "Hello {{ person_name }}"
