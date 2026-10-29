@@ -14,4 +14,4 @@
     vars:
       course: "ansible from task"
     debug: 
-      msg: "Hi Iam learning {{ course }} from {{ trainer }}, duration is {{ duration }}"
+      msg: "Hi Iam learning {{ course }}"
