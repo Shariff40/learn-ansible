@@ -1,5 +1,5 @@
 - name: course information
-  hosts: local
+  hosts: localhost
   connection: local
   vars:
     course: "AIOps with devsecops on aws" #string
@@ -14,14 +14,16 @@
        trainer: sivakumar
        months: 4
     exact_duration_in_months: 4.5
+  
   tasks:
-  - name: print info and type
-    debug:
-      msg: |
-        name: "{{ course }} : {{ course | type_debug }} "
-        duration: {{ duration_in_hours }} : {{ duration_in_hours | type_debug }} "
-        is live: {{ is_live_sessions }} : {{ is_live_sessions | type_debug }} "
-        topics are: {{ topics }} : {{ topics | type_debug }} "
-        more details: {{ more_details }} : {{ more_details | type_debug }} "
-        duration: {{ exact_duration_in_months }} : {{ exact_duration_in_months | type_debug }} "
+    - name: print info and type
+      debug:
+        msg: |
+          name: {{ course }} : {{ course | type_debug }}
+          duration: {{ duration_in_hours }} : {{ duration_in_hours | type_debug }}
+          is live: {{ is_live_sessions }} : {{ is_live_sessions | type_debug }}
+          topics are: {{ topics }} : {{ topics | type_debug }}
+          more details: {{ more_details }} : {{ more_details | type_debug }}
+          exact duration: {{ exact_duration_in_months }} : {{ exact_duration_in_months | type_debug }}
+
     
